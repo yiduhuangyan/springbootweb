@@ -25,7 +25,7 @@ public class TransactionController extends BasicController {
 		CustomerOrderOutput info = new CustomerOrderOutput();
 		info = this.getTransationService().getCustomerOrderInfo();
 		info.setCode(ResponseEnum.SUCCESS.getCode());
-		info.setCode(ResponseEnum.SUCCESS.getMessage());
+		info.setMessage(ResponseEnum.SUCCESS.getMessage());
 		return info;
 	}
 }

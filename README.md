@@ -15,3 +15,6 @@ CREATE TABLE `order_info` (
 -- Records of order_info
 -- ----------------------------
 INSERT INTO `order_info` VALUES ('1', 'test01', 'mobile', '1');
+
+2.access url
+http://localhost:8080/transation/orderinfo

@@ -12,7 +12,7 @@ public class CustomerOrderOutput extends ResponseMessage implements Serializable
 
 	private String tradeName;
 
-	private String number;
+	private Integer number;
 
 	public String getCustomerName() {
 		return customerName;
@@ -30,11 +30,11 @@ public class CustomerOrderOutput extends ResponseMessage implements Serializable
 		this.tradeName = tradeName;
 	}
 
-	public String getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 
-	public void setNumber(String number) {
+	public void setNumber(Integer number) {
 		this.number = number;
 	}
 

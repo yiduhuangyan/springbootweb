@@ -10,7 +10,7 @@ public class CustomerOrderDaoOutput implements Serializable {
 
 	private String tradeName;
 
-	private int number;
+	private Integer number;
 
 	public String getCustomerName() {
 		return customerName;
@@ -28,11 +28,11 @@ public class CustomerOrderDaoOutput implements Serializable {
 		this.tradeName = tradeName;
 	}
 
-	public int getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(Integer number) {
 		this.number = number;
 	}
 
